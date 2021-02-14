@@ -1,0 +1,26 @@
+.container {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+
+.parallax {
+    background-image: url("../img/northern.jpg");
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+body {
+    padding-bottom: 10%;
+}
+
+.portfolioSegments {
+    border-bottom: 1px solid lightgrey;
+}
