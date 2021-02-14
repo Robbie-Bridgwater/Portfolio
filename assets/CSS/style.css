@@ -1,4 +1,4 @@
-/* This changes the bulk of the font */
+/* This changes the bulk of the font (using GoogleFonts) */
 
 .container {
     font-family: 'Raleway', sans-serif;
@@ -6,7 +6,7 @@
 }
 
 
-/* this changes the font of the titles */
+/* this changes the font of the titles (using GoogleFonts) */
 
 .title {
     font-family: 'Lexend Mega', sans-serif;
