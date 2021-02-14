@@ -33,7 +33,7 @@ body {
 }
 
 
-/* this adds a light grey border to the bottom of each portfolio segment to help seperate them */
+/* this adds a light grey border to the bottom of each portfolio segment to help seperate them, this is especially helpful on mobile */
 
 .portfolioSegments {
     border-bottom: 1px solid lightgrey;
