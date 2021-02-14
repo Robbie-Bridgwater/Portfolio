@@ -15,3 +15,5 @@ Open Portfolio ---> [here](https://robbie-bridgwater.github.io/Portfolio/)
 How the app should look when loaded --->
 
 ![image](assets/img/portfolioScreenshot.png)
+![image](assets/img/portfolioPageScreenshot.png)
+![image](assets/img/contactMe.png)
