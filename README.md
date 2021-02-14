@@ -2,7 +2,7 @@
 - My professional portfolio
 
 ## Link
-Open Portfolio ---> [here](https://robbie-bridgwater.github.io/Homework_week7/)
+Open Portfolio ---> [here](https://robbie-bridgwater.github.io/Portfolio/)
 
 ## Languages Used
 - HTML 
