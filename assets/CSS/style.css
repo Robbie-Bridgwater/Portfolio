@@ -12,6 +12,9 @@
     font-family: 'Lexend Mega', sans-serif;
 }
 
+
+/* this does the parallax scrolling for the image on the index page - this image will be replaced with a landscape of myself */
+
 .parallax {
     background-image: url("../img/northern.jpg");
     height: 400px;
