@@ -32,6 +32,9 @@ body {
     padding-bottom: 10%;
 }
 
+
+/* this adds a light grey border to the bottom of each portfolio segment to help seperate them */
+
 .portfolioSegments {
     border-bottom: 1px solid lightgrey;
 }
