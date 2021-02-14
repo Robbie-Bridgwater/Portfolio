@@ -25,6 +25,9 @@
     background-size: cover;
 }
 
+
+/* this adds padding to the bottom of the page otherwise you cannot view some segments of the portfolio because of the footer */
+
 body {
     padding-bottom: 10%;
 }
