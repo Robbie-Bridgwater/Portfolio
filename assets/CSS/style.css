@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 480px) {
     .profile-picture {
-        height: 350px;
+        height: 385px;
         width: auto;
         display: block;
         margin-left: auto;
