@@ -1,27 +1,21 @@
-/* This changes the bulk of the font (using GoogleFonts) */
-
-.container {
-    font-family: 'Raleway', sans-serif;
-    font-size: large;
-}
-
-.btn {
-    margin: 1%;
-}
-
-
-/* this changes the font of the titles (using GoogleFonts) */
+/* TITLE SECTION */
 
 .title {
+    font-family: 'Lexend Mega', sans-serif;
+    color: #431c53;
+    border-bottom: 3px solid #431c53;
+}
+
+.subTitle {
     font-family: 'Lexend Mega', sans-serif;
 }
 
 
-/* this does the parallax scrolling for the image on the index page - this image will be replaced with a landscape of myself */
+/* HEADER, PROFILE PICTURE AND PARALLAX SECTION */
 
 .parallax {
     background-image: url("../img/linkedInBack.webp");
-    height: 240px;
+    height: 350px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -39,7 +33,7 @@
 
 @media screen and (max-width: 480px) {
     .profile-picture {
-        height: 240px;
+        height: 350px;
         width: auto;
         display: block;
         margin-left: auto;
@@ -49,8 +43,22 @@
     }
 }
 
-.theme-color {
-    background-color: #431c53
+
+/* TYPES OF CONTAINER (CARD, MOSAIC AND CONTAINER) */
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+
+.card {
+    margin: 1%;
+    border: 5px solid #431c53
+}
+
+.card-title {
+    color: #431c53;
+    font-weight: bold;
 }
 
 .mosaic {
@@ -68,15 +76,16 @@
 }
 
 
-/* this adds padding to the bottom of the page otherwise you cannot view some segments of the portfolio because of the footer */
+/* MISC */
+
+.btn {
+    margin: 1%;
+}
+
+.theme-color {
+    background-color: #431c53
+}
 
 body {
     padding-bottom: 10%;
-}
-
-
-/* this adds a light grey border to the bottom of each portfolio segment to help seperate them, this is especially helpful on mobile */
-
-.portfolioSegments {
-    border-bottom: 1px solid lightgrey;
 }
