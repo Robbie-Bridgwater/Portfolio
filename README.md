@@ -12,8 +12,8 @@ Section | Description
 [Licence](#licence) | Licence for the source code
 [Questions](#Questions?) | Where you can reach me
 
-## Link
-Open Portfolio ---> [here](https://robbie-bridgwater.github.io/Portfolio/)
+## DEPLOYMENT
+OPEN PORTFOLIO ---> [HERE](https://robbie-bridgwater.github.io/Portfolio/)
 
 ## Technologies
 - HTML 
