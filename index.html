@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-info navbar-dark">
+    <nav class="navbar navbar-expand-md theme-color navbar-dark">
         <a class="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robbie Bridgwater</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -41,18 +41,23 @@
         </div>
     </nav>
     <header>
-        <div class="row">
-            <!-- (note to the person marking my work) the parallax image will be replaced with a picture of me with a scenic background. Currently I do not have a professional photo of myself I can use, please don't mark me down for this. I used a festival photo in my last portfolio and got negative feedback from a potential employer. Also - hope you're having a great day! :D -->
-            <div class="parallax">
+        <div class="mosaic">
+            <div class="mosaic__item">
+                <div class="parallax"></div>
+            </div>
+            <div class="mosaic__item">
+                <img class="profile-picture" src="./assets/img/pictureMe.jpg" alt="profile-picture">
             </div>
         </div>
+
+    </header>
+    <div class="container">
+        <!-- ABOUT ME TITLE -->
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title">
                 <h2>About Me</h2>
             </div>
         </div>
-    </header>
-    <div class="container">
         <h4 class="title">Bio</h4>
         <div class="container">
             <div class="row">
@@ -74,8 +79,8 @@
         </div>
     </div>
 
-    <footer class="fixed-bottom page-footer font-small bg-info">
-        <div class="footer-copyright text-center text-light py-3">©Copyright
+    <footer class="fixed-bottom page-footer font-small theme-color">
+        <div class="footer-copyright text-center text-light py-3">©Copyright Robert Bridgwater
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

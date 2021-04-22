@@ -20,13 +20,46 @@
 /* this does the parallax scrolling for the image on the index page - this image will be replaced with a landscape of myself */
 
 .parallax {
-    background-image: url("../img/northern.jpg");
-    height: 400px;
+    background-image: url("../img/linkedInBack.webp");
+    height: 240px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: auto;
+    position: relative;
+    left: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .profile-picture {
+        height: 240px;
+        width: auto;
+        align-content: center;
+    }
+}
+
+.theme-color {
+    background-color: #431c53
+}
+
+.mosaic {
+    display: grid;
+}
+
+.mosaic__item:first-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 2;
+}
+
+.mosaic__item:last-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 2;
 }
 
 
