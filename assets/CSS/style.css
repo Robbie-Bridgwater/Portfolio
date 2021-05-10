@@ -10,6 +10,10 @@
     font-family: 'Lexend Mega', sans-serif;
 }
 
+.grid-item {
+    width: 100%;
+}
+
 
 /* HEADER, PROFILE PICTURE AND PARALLAX SECTION */
 
