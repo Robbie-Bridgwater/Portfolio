@@ -56,14 +56,14 @@
     border: 5px solid #431c53
 }
 
-.card-title {
-    color: #431c53;
-    font-weight: bold;
-}
-
 .card:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.1);
+}
+
+.card-title {
+    color: #431c53;
+    font-weight: bold;
 }
 
 .mosaic {
